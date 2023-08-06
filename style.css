@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(221, 114, 114, 0.257);
+    border-radius: 10px;
+    margin: 40px auto;
+    position: relative;
+    z-index: 99;
+}
+
+.title {
+    background-color: rgb(240, 187, 187);
+    border-radius: 10px 10px 0 0;
+}
+
+.title h1 {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(110, 97, 97);
+}
+
+.recipe-list {
+    padding: 10px 10px 25px 25px;
+}
+
+.recipe-list li {
+    list-style: none;
+    height: 25px;
+    margin: 5px 0;
+}
+
+.recipe-list li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.recipe-list a:hover {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+}
